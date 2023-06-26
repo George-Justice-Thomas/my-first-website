@@ -1,0 +1,74 @@
+/*This makes the whole page a different color,it aligns all the text and my image inside the body, the margin sets no extra space inbetween lines and lastly, changes it to my chosen font-family*/
+body{
+  background-color:#F3F3F3;
+  text-align:center;
+  font-family:Arial;
+  margin:0%;
+}
+
+/*border radius makes the image have rounded corners, and I shrunk the size with the width option so it would fit better on the website*/
+img {
+  border-radius:30px;
+  width:30%;
+}
+
+/*These represent the psuedo classes for links and the color I want each to 
+have,link being the initial appearance of the link, visited being once you've 
+clicked it, hover being when the cursor is over the link, and active being the 
+time in which you actually click the link*/
+a:link{color:darkblue}
+a:visited{color:red;}
+a:hover {color:green;}
+a:active{color:lightblue;}
+/*This affects the font size and the spacing in between lines */
+p,a,ul,ol {
+  font-size:20px ;
+  line-height:200%;
+}
+/*This changes the classes I want to chosen color,the display makes it an in-line block, and the border radius trims the corners*/
+.contact, .george, .software {
+  color:#CFCFCF;
+  display:inline-block;
+  background-color:black;
+  border-radius:50px;
+}
+/*These represent the three jobs I listed, and I changed each to the color(s) I 
+have selected*/
+.tape {
+  color:#AAD692;
+}
+.bake{
+  color:#72443B;
+}
+.coffee{
+  color:#E89DF3;
+}
+/*This makes the horizontal ruler thicker with the padding, the inside color the 
+background color choice,the border width makes the border color stand out more, and the border color the trace around the ruler*/
+hr {
+  padding:20px;
+  background-color:#DFDFDF;
+  border-color:black;
+  border-width:thick;
+  
+}
+/*This makes my name at the top the color I have selected*/
+.name{
+  color:black;
+}
+/*This makes the quote the color I have selected,and gives it a in-line block with the color I have chosen*/
+.quote {
+  color:black;
+  background-color:#D7DEFF;
+  display:inline-block;
+  border-radius:20px;
+  }
+
+/*This makes the copyright symbol and my name in the footer the color I have selected*/
+footer {
+  color:#E7C4FF;
+}
+/*This should make my bullets and numbers align more with the text*/
+ul,ol {
+  list-style-position:inside;
+}

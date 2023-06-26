@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <!--This code below tell browsers how to process the characters and code within the file-->
+    <meta charset="utf-8">
+    <!--This line of code below allows the user of any device to have a page that stretches or shrinks to fit the size of that device-->
+    <meta name="viewport" content="width=device-width">
+   <!--The title of my project, what should read in the search engines description below-->
+    <title> George Thomas:Upcoming Software Engineer / Portfolio </title>
+   <!--This code below is telling my html file to listen to my external style.css-->
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <!--This code below helps to make my code more universal,making it much more compatible for multiple platforms-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css">
+  
+  </head>
+
+  <body>
+    <header>
+      <div>
+        <!--I gave this h1 a class so I could change this in specific-->
+        <h1 class="name">
+          George Thomas
+        </h1>
+        <h2 class="software"> 
+          Software Developer in Training <!--I could make this h3 but I think it looks good with the h2 element-->
+        </h2>
+      </div>
+    </header>
+      <!--I start with my main container as it will be holding most of my code for the website-->
+    <main>
+<!--I then create my first section container, these will help me to differentiate 
+      between the intro, the about section, and the contact me section. I make sure to label the section with an id so I can reference it later as a quick link that will take you back to this section-->
+      <section id="intro">
+        <h3 class="quote">
+          "Coding is so much fun!<!--A quote from me using the h3 element-->
+          "</h3>
+       <!--I put my img in a div container so I could text-align the div, 
+        aligning everything contained in the div-->
+        <div class="imaje">
+          <!--My image code and alternate title if the image doesn't load-->
+        <img src="images/portraits/portrait.jpg" alt="George Thomas Pfp">
+        </div>
+        <!--An intro about me!-->
+        <p>Hello! My name is George but I usually go by Justice. I live in the United States in the state of New Jersey. I'm currently 21, and enjoy music and video games. Recently I've found an interest in coding that leads me to learn more about the technology I'm using and the many unheard languages that they communicate with. 
+        I hope to make something that helps to impact the world!
+        That being said, I'm a determined individual who plans to master the ways of coding!</p>
+        <p>Here are some fun facts about me:</p>
+<!--An unordered,or bullet list. I made sure to label each bullet with li or list 
+        item-->
+        <ul>
+  <li>played the alto and baritone saxophone in high school</li>
+  <li>was on the bowling team during my sophomore year of high school</li>
+  <li>was on the tennis team during my senior year of high school</li>
+ <!--Inside of this listed item, I created an anchor to wrap around Project M, 
+          that when clicked will take you to the wikipedia page.-->
+          <li>hosted <a href="https://en.wikipedia.org/wiki/Project_M">Project M</a> tournament during my senior year of high school</li>
+</ul>
+     
+      </section>
+      <!--This is a horizontal break-->
+      <hr>
+        <!-- Here I begin my new section, the about me section, making sure to label it with an id just like the last section-->
+      <section id="about">
+        <h2 class="george">The George Lore</h2>
+        <p>I enjoy simple things and the like. 
+        After graduating from Dwight Morrow High School I went to Rutgers Newark unsure of what I wanted to major in. 
+        Feeling like the college life wasn't right for me, I decided to leave college and join the work force.</p>
+        <p>I worked for many different places, here is my list of my top 3 jobs I have worked at in the past:</p>
+        <!--here is an ordered, or numbered list, of my top 3 favorite jobs I 
+        have worked-->
+        <ol>
+          <li class="tape">Tape Press Operator</li>
+          <li class="bake">Baker</li>
+          <li class="coffee">Barista</li>
+         
+        </ol>
+        
+       <p> That being said,my favorite was the tape press warehouse in Bergenfield, where we would print logos on rolls of tape.</p>  
+        <p>I started off learning as a press operator assistant,
+        <!--So I tried to use in-line styling to make a specific text string the 
+        color red.-->
+        <span style="color:red;">"P.O.I.N.T."</span> 
+        it was called. 
+        due to my intrigue in the press machines themselves I sought help from operators who I had become friends with to teach me during off time. 
+        I was then assigned to a new machine and had finally become what I had been working towards.</p> 
+        <p>I was proud to be a machine operator and the ability to have a schedule that went by as fast as you pushed the product out was something I enjoyed.
+        But this job gave me the same problem that other jobs in the past have provided: anxiety.
+        And a lot of it.
+         After work days I found myself socially drained, nervous of my decisions and how they would impact me, a feeling of inadequacy for feeling these feelings, and an overall lack of enthusiasm from me.</p>
+        <p>Cut to now, where I've found an interest in learning to develop software and write code.
+        It feels like a spark is lit somewhere inside my heart. 
+        I feel the material to be immensely rewarding and a remote environment that retains a cooperative staff through virtual calls is something I believe I would benefit greatly from.</p>
+      </section>
+     <!--This is a horizontal break-->
+        <hr>
+        <!--The last section!-->
+      <section id="contact">
+        <h2 class="contact">
+          People Converse!
+        </h2>
+        <p>All things must come to an end, and sadly this is the last part of the website</p> 
+        <p>What did <strong><i>y o u</i></strong> think?</p> 
+        <p><span style="font-size:15px"><i>Did you like it?</i></span></p> 
+        <p>Did you <strong>hate</strong> it?</p><!--this should make hate semantically bold-->
+        <p>Was it <i>alright</i>?</p> 
+        <p>I don't know if you have any thoughts after going through my website, but if you do, I need to hear them for there to be a clear channel for us to communicate!</p> 
+        <p>Please reach me on my :</p>
+        <!--another bullet list-->
+        <ul>
+          <li>
+           <!-- These items in the list are both links that display the pseudo classes I learned about, taking you to my linkedin or github profile-->
+            <a href="https://www.linkedin.com/in/george-thomas-b3439b278/">LinkedIn</a>
+          </li>
+           <li> 
+             <a href="https://github.com/George-Justice-Thomas">Github</a>
+           </li>
+           </ul>
+     
+       <!--Within this paragraph, there are three relative links that, using the 
+        id's I have created, will re-direct you to any of the three sections by 
+        clicking on the one you want go to-->
+        <p>Thank you for visiting my website! 
+        I hope you enjoyed your stay! 
+        Please expect bigger things next time you come to visit as I will be increasing my skillset and sharpening my tools of coding! 
+        And with that out of the way you've finished my website!</p> 
+        <p>If you wanna go back to check any parts again choose either <a href="#intro">Intro</a>,<a href="#about">The George Lore</a>,or <a href="#contact">People Converse!</a>.</p> <p>Thank you, bye! :)</p>
+      </section>
+    </main>
+  <!--My footer which contains my name and a copyright logo using the italics element <i></i>-->
+ <footer class="foot">
+      <p><i>&copy; George Thomas</i></p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+
+</html>
